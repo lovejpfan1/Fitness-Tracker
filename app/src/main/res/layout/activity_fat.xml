@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:context=".ImcActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/FAT_title" />
+
+        <TextView
+            style="@style/TextViewTemplate"
+            android:text="@string/FAT_description"/>
+
+        <Spinner
+            android:id="@+id/BPM_spinner"
+            style="@style/SpinnerTemplate"
+            android:entries="@array/gender_array"
+            />
+
+        <EditText
+            android:id="@+id/BPM_age"
+            style="@style/EditTextTemplate"
+            android:hint="@string/GEN_age" />
+
+        <EditText
+            android:id="@+id/BPM_weight"
+            style="@style/EditTextTemplate"
+            android:hint="@string/GEN_weight" />
+
+        <EditText
+            android:id="@+id/BPM_height"
+            style="@style/EditTextTemplate"
+            android:hint="@string/GEN_height" />
+
+        <EditText
+            android:id="@+id/BPM_neck"
+            style="@style/EditTextTemplate"
+            android:hint="@string/GEN_neck" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:layout_marginLeft="28dp">
+
+            <EditText
+                android:id="@+id/BPM_waist"
+                style="@style/EditTextGroupTemplate"
+                android:hint="@string/GEN_waist" />
+
+            <EditText
+                android:id="@+id/BPM_wip"
+                style="@style/EditTextGroupTemplate"
+                android:hint="@string/GEN_wip" />
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/BPM_button"
+            style="@style/ButtonTemplate"
+            android:text="@string/GEN_button" />
+
+    </LinearLayout>
+</ScrollView>
+

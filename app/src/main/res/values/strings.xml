@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">FitnessTracker</string>
+    <string name="icon_button_1">IMC</string>
+    <string name="IMC_title">IMC</string>
+    <string name="IMC_description">IMC é a sigla para Índice de Massa Corporal,que é um cálculo que serve para avaliar se a pessoa está dentro do seu peso ideal em relação à altura. \n\n Assim, de acordo com o valor do resultado de IMC, a pessoa pode saber se está dentro do peso ideal, acima ou abaixo do peso desejado.</string>
+    <string name="IMC_under_weight">Abaixo do peso</string>
+    <string name="IMC_normal_weight">Peso normal</string>
+    <string name="IMC_overweight">Sobrepeso</string>
+    <string name="IMC_obesity_grade_1">Obesidade grau 1</string>
+    <string name="IMC_obesity_grade_2">Obesidade grau 2</string>
+    <string name="IMC_obesity_grade_3">Obesidade grau 3</string>
+    <string name="IMC_response">IMC: %1$.2f</string>
+    <string name="TMB_response">TMB: %d</string>
+    <string name="GEN_weight">Peso (kg)</string>
+    <string name="GEN_height">Altura (cm)</string>
+    <string name="GEN_button">Calcular</string>
+    <string name="TMB_title">TMB</string>
+    <string name="TMB_description">A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para manter as funções do organismo em repouso, como os batimentos cardíacos, a pressão arterial, a respiração e a manutenção da temperatura corporal.</string>
+    <string name="GEN_age">Idade</string>
+    <string name="BPM_title">BPM</string>
+    <string name="BPM_description">A frequência cardíaca de uma pessoa varia ao longo de um mesmo dia, em virtude de diversos fatores, como alimentação, sono, medicamentos, atividades física ou mental, expectativa e até por crises de ansiedade</string>
+    <string name="GEN_bpm">Frequencia cardiaca</string>
+    <string name="FAT_title">% Gordura</string>
+    <string name="FAT_description">A quantidade de gordura corporal ideal no homem pode variar entre 16 e 20% e na mulher entre 20 e 24%, porém estes valores normalmente aumentam com a idade e, na maioria dos casos é superior na mulher</string>
+    <string name="GEN_neck">Pescoço (cm)</string>
+    <string name="GEN_waist">Cintura (cm)</string>
+    <string name="GEN_wip">Quadril (cm)</string>
+    <string name="GEN_save">Salvar</string>
+    <string name="GEN_search">Buscar</string>
+    <string name="GRN_result_screen_title">Exibindo resultados de %1$s</string>
+</resources>
