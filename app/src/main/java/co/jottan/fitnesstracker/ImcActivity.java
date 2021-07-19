@@ -1,6 +1,7 @@
 package co.jottan.fitnesstracker;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.StringRes;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -110,6 +111,7 @@ public class ImcActivity extends AppCompatActivity {
         return weight / (((double) height / 100) * ((double) height / 100));
     }
 
+    @StringRes
     public int getStringResult(double imcResult) {
         if (imcResult < 18.5)
             return R.string.IMC_under_weight;
